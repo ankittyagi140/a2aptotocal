@@ -39,7 +39,7 @@ export default function TermsPage() {
                 <p><strong>Third-party Social Media Service</strong> means any services or content (including data, information, products or services) provided by a third-party that may be displayed, included or made available by the Service.</p>
               </li>
               <li>
-                <p><strong>Website</strong> refers to A2A Protocol, accessible from <a href="https://www.a2aprotocol.com" rel="external nofollow noopener" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline">https://www.a2aprotocol.com</a></p>
+                <p><strong>Website</strong> refers to A2A Protocol, accessible from <a href="https://www.a2aprotocal.com" rel="external nofollow noopener" target="_blank" className="text-blue-600 dark:text-blue-400 hover:underline">https://www.a2aprotocal.com</a></p>
               </li>
               <li>
                 <p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>

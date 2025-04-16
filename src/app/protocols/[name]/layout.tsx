@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       openGraph: {
         title: `${name} | A2A Protocol Directory`,
         description: description.substring(0, 200),
-        url: `https://a2aprotocol.com/protocols/${name}`,
+        url: `https://a2aprotocal.com/protocols/${name}`,
         siteName: 'A2A Protocol Directory',
         images: [
           {

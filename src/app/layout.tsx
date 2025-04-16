@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     description: "The standard for AI agent-to-agent communication protocols",
     images: ["/a2a_protocol.png"],
-    creator: "@a2aprotocol",
+    creator: "@a2aprotocal",
   },
   robots: {
     index: true,
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "verification_token",
+    google: "yX3fbKT3ETGUoytOLhMUutoXUjp3Ec4X-z_2NbNq-Z4",
   },
   alternates: {
     canonical: "https://www.a2aprotocal.com",
@@ -95,6 +95,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+      <meta name="google-site-verification" content="yX3fbKT3ETGUoytOLhMUutoXUjp3Ec4X-z_2NbNq-Z4" />
         {/* JSON-LD Structured Data */}
         <script
           type="application/ld+json"

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'List Your Protocol | A2A Protocol Directory',
     description: 'Submit your A2A protocol to our directory and reach developers and AI researchers worldwide',
-    url: 'https://a2aprotocol.com/list-your-protocol',
+    url: 'https://a2aprotocal.com/list-your-protocol',
     siteName: 'A2A Protocol Directory',
     images: [
       {

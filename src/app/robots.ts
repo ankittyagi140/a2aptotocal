@@ -11,6 +11,6 @@ export default function robots(): MetadataRoute.Robots {
         '/submission-success'
       ],
     },
-    sitemap: 'https://a2aprotocol.com/sitemap.xml',
+    sitemap: 'https://a2aprotocal.com/sitemap.xml',
   };
 } 

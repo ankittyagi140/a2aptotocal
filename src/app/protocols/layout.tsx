@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Discover A2A Protocols | A2A Protocol Directory',
     description: 'Explore our comprehensive directory of A2A (Agent-to-Agent) protocols',
-    url: 'https://a2aprotocol.com/protocols',
+    url: 'https://a2aprotocal.com/protocols',
     siteName: 'A2A Protocol Directory',
     images: [
       {

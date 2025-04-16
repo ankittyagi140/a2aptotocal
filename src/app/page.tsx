@@ -506,7 +506,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/list"
+                href="/list-your-protocol"
                 className="bg-white text-blue-600 hover:bg-blue-50 font-bold py-4 px-8 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1"
               >
               List Your Protocol
