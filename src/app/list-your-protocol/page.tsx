@@ -232,7 +232,7 @@ export default function ListProtocol() {
                   )}
                 </button>
                 <p className="text-center text-gray-500 dark:text-gray-400 text-sm mt-4">
-                  By submitting, you agree to our <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline">Terms of Service</a> and <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline">Privacy Policy</a>
+                  By submitting, you agree to our <a href="/terms" className="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Terms of Service</a> and <a href="/privacy" className="text-blue-600 dark:text-blue-400 hover:underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                 </p>
               </div>
             </div>
