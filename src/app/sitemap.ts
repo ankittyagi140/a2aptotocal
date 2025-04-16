@@ -3,7 +3,7 @@ import { supabase } from '@/utils/supabase';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Base URL for the site
-  const baseUrl = 'https://a2aprotocal.com';
+  const baseUrl = 'https://www.a2aprotocal.com';
   
   // Get current date for lastModified
   const currentDate = new Date();
