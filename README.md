@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# A2A Protocol Directory
 
-## Getting Started
+The central hub for discovering, listing, and comparing A2A (Agent-to-Agent) protocols. Find and share protocols that enable AI agents to communicate with each other across enterprise platforms.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Protocol submission form
+- Protocol browsing with search and filter capabilities
+- Responsive design for all devices
+- Tag-based filtering
+- Supabase database integration
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Setup Instructions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js (v18 or later)
+- npm or yarn
+- A Supabase account (free tier is sufficient)
 
-## Learn More
+### Supabase Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. Create a new project in [Supabase](https://supabase.com/).
+2. After creating the project, navigate to the SQL Editor.
+3. Copy the contents of the `supabase-setup.sql` file from this project.
+4. Paste and run the SQL commands in the Supabase SQL Editor to set up the database schema.
+5. Go to Project Settings > API and copy the following:
+   - Project URL
+   - Project API Key (anon public)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Local Development Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/a2a-protocol-directory.git
+   cd a2a-protocol-directory
+   ```
 
-## Deploy on Vercel
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Create a `.env.local` file in the root directory and add your Supabase credentials:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+
+## Project Structure
+
+- `src/app/page.tsx` - Home page with the protocol submission form
+- `src/app/browse/page.tsx` - Protocol browsing page
+- `src/utils/supabase.ts` - Supabase client configuration
+- `src/types/protocol.ts` - TypeScript interfaces for protocol data
+- `public/` - Static assets including images and favicon
+
+## Deployment
+
+This project can be easily deployed on Vercel or any other Next.js-compatible hosting platform:
+
+1. Push your code to a GitHub repository.
+2. Connect your repository to Vercel.
+3. Add your environment variables (Supabase URL and API Key).
+4. Deploy!
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
