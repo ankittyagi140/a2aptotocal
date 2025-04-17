@@ -76,7 +76,7 @@ export default function ListProtocol() {
   return (
     <div className="container mx-auto py-12 px-4">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8">List Your Protocol on A2A Protocal</h1>
+        <h1 className="text-3xl font-bold mb-8">List Your A2A Protocol</h1>
         
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 p-6">
           <div className="mb-6 p-4 bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-400 rounded-lg">
