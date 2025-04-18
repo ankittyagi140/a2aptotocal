@@ -23,9 +23,10 @@ export const metadata: Metadata = {
   keywords: [
     "A2A Protocol",
     "Agent to Agent",
-    "AI communication",
-    "AI agents",
-    "Machine learning",
+    "A2A protocols",
+    "A2A communication",
+    "A2A protocol list",
+    "A2A protocol marketplace",
     "AI integration",
     "Protocol directory",
     "A2A protocol directory",
